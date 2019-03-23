@@ -1,7 +1,7 @@
 use clap::{App, Arg};
 
 fn main() {
-    let m = App::new("echo")
+    let m = App::new("clap-test")
         .arg(Arg::with_name("STRING").multiple(true))
         .arg(
             Arg::with_name("n")
